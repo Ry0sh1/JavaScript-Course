@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-buttons{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    font-size: 36px;
+    border: grey solid 1px;
+    cursor: pointer;
+    height: 200px;
+    transition: opacity 0.15s;
+}
+.num{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.op{
+    background-color: rgba(6, 27, 98, 0.65);
+}
+.button:hover{
+    opacity: 0.55;
+}
+.button:active{
+    opacity: 0.30;
+}
